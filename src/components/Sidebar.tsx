@@ -4,6 +4,7 @@ import jeremyImg from '../images/image-jeremy.png';
 import { ActiveLink } from './ActiveLink';
 
 export function Sidebar() {
+
   return (
     <Box height='100%' bgColor='neutral.darkBlue' borderRadius='15'>
       <Flex

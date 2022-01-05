@@ -8,6 +8,7 @@ const colors = {
     limeGreen: 'hsl(145, 58%, 55%)',
     violet: 'hsl(264, 64%, 52%)',
     softOrange: 'hsl(43, 84%, 65%)',
+    lightBlue: '#56C2E6'
   },
   neutral: {
     veryDarkBlue: 'hsl(226, 43%, 10%)',
