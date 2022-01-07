@@ -1,4 +1,6 @@
-import { Box, Flex, Heading, Image, Link, Text } from '@chakra-ui/react';
+import { Box, Flex, Heading, Text, Icon } from '@chakra-ui/react';
+
+import { BiDotsHorizontalRounded } from 'react-icons/bi';
 
 import play from '../images/icon-play.svg';
 import work from '../images/icon-work.svg';
@@ -6,8 +8,6 @@ import study from '../images/icon-study.svg';
 import exercise from '../images/icon-exercise.svg';
 import social from '../images/icon-social.svg';
 import selfCare from '../images/icon-self-care.svg';
-
-import threeDots from '../images/icon-ellipsis.svg';
 
 interface CardItemProps {
   title: string;
@@ -36,8 +36,8 @@ export function CardItem({
       height='100%'
       width='100%'
       borderTopRadius={15}
-      borderBottomRightRadius={15}
-      borderBottomLeftRadius={15}
+      borderBottomRightRadius={20}
+      borderBottomLeftRadius={20}
       bgColor={
         title === 'play'
           ? 'primary.lightBlue'
@@ -91,8 +91,17 @@ export function CardItem({
         height='80%'
         borderBottomRadius={15}
         width='100%'
+
+        _hover={{ bgColor: 'neutral.desaturatedBlue', cursor: 'pointer' }}
       >
-        <Flex pt={6} pr={8} pl={8} pb={4} justifyContent='space-between'>
+        <Flex
+          pt={6}
+          pr={8}
+          pl={8}
+          pb={4}
+          justifyContent='space-between'
+          align='center'
+        >
           <Text color='white'>
             {title === 'play'
               ? 'Play'
@@ -106,15 +115,18 @@ export function CardItem({
               ? 'Social'
               : 'Self Care'}
           </Text>
-          <Link href='google.com'>
-            <Image src={threeDots} objectFit='contain' />
-          </Link>
+          <Icon
+            as={BiDotsHorizontalRounded}
+            color='neutral.paleBlue'
+            fontSize='26'
+            _hover={{ cursor: 'pointer', color: 'white' }}
+          />
         </Flex>
         <Flex pr={8} pl={8} flexDir='column'>
           <Heading fontSize='52' fontWeight={300} color='white'>
             {hoursThisMonth}hrs
           </Heading>
-          <Text color='neutral.paleBlue' font>
+          <Text color='neutral.paleBlue'>
             Last Week - {hoursPastMonth}hrs
           </Text>
         </Flex>

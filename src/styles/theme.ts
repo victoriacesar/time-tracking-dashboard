@@ -13,7 +13,7 @@ const colors = {
   neutral: {
     veryDarkBlue: 'hsl(226, 43%, 10%)',
     darkBlue: 'hsl(235, 46%, 20%)',
-    desaturatedBlue: 'hsl(235, 45%, 61%)',
+    desaturatedBlue: '#34397B',
     paleBlue: 'hsl(236, 100%, 87%)',
   },
 };

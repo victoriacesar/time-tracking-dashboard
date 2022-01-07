@@ -17,7 +17,7 @@ export function Daily() {
     >
       {userData.map((data) => {
         return (
-          <GridItem>
+          <GridItem key={data.title}>
             <CardItem
               title={data.title}
               hoursThisMonth={data.timeframes.daily.current}
