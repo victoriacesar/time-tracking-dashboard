@@ -4,15 +4,13 @@ import jeremyImg from '../images/image-jeremy.png';
 import { ActiveLink } from './ActiveLink';
 
 export function Sidebar() {
-
   return (
     <Box height='100%' bgColor='neutral.darkBlue' borderRadius='15'>
       <Flex
-        padding='8'
+        padding={{ base: '4', md: '4', lg: '8' }}
         bgColor='primary.blue'
-        width='100%'
         height='70%'
-        direction='column'
+        direction={{ base: 'row', md: 'row', lg: 'column' }}
         borderRadius='15'
       >
         <Avatar
@@ -20,26 +18,36 @@ export function Sidebar() {
           size='lg'
           showBorder={true}
           borderColor='white'
-          mb='35'
+          mb={{ base: 0, md: 0, lg: '35' }}
+          marginTop={2}
         />
-        <Box>
-          <Text fontSize='xs' color='neutral.paleBlue'>
+        <Flex
+          paddingLeft={{ base: '1rem', md: '1rem', lg: '0' }}
+          flexDir='column'
+          justify='center'
+        >
+          <Text fontSize='x-small' color='neutral.paleBlue'>
             Report for
           </Text>
-          <Heading fontSize='36' fontWeight='300' color='white'>
+          <Heading
+            fontSize={{ base: '24', md: '24', lg: '36' }}
+            fontWeight='300'
+            color='white'
+          >
             Jeremy Robson
           </Heading>
-        </Box>
+        </Flex>
       </Flex>
       <Flex
         width='100%'
         height='30%'
         pb={4}
-        pt={4}
+        pt={{base: 1, md: 1, lg: 4}}
         pr={8}
         pl={8}
         align='flex-start'
-        direction='column'
+        justify='space-between'
+        direction={{ base: 'row', md: 'row', lg:'column'}}
         gap='8px'
       >
         <ActiveLink>Daily</ActiveLink>

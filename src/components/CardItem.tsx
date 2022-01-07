@@ -35,6 +35,7 @@ export function CardItem({
     <Box
       height='100%'
       width='100%'
+      pb={{ base: '1rem' }}
       borderTopRadius={15}
       borderBottomRightRadius={20}
       borderBottomLeftRadius={20}
@@ -82,22 +83,21 @@ export function CardItem({
         }
         bgRepeat='no-repeat'
         bgPosition='top 30% left 92%'
-        bgSize='30%'
+        bgSize={{ base: '20%', md: '20%', lg: '30%' }}
         borderTopRadius={15}
       />
       <Box
         bgColor='neutral.darkBlue'
         borderTopRadius={15}
-        height='80%'
+        height={{ base: '100%', md: '100%', lg: '90%' }}
         borderBottomRadius={15}
-        width='100%'
-
+        width={{ base: '100%', md: '100%', lg: '100%' }}
         _hover={{ bgColor: 'neutral.desaturatedBlue', cursor: 'pointer' }}
       >
         <Flex
           pt={6}
-          pr={8}
-          pl={8}
+          pr={{ base: 6, md: 6, lg: 8 }}
+          pl={{ base: 6, md: 6, lg: 8 }}
           pb={4}
           justifyContent='space-between'
           align='center'
@@ -122,11 +122,22 @@ export function CardItem({
             _hover={{ cursor: 'pointer', color: 'white' }}
           />
         </Flex>
-        <Flex pr={8} pl={8} flexDir='column'>
-          <Heading fontSize='52' fontWeight={300} color='white'>
+        <Flex
+          pr={{ base: 6, md: 6, lg: 8 }}
+          pl={{ base: 6, md: 6, lg: 8 }}
+          flexDir={{ base: 'row', md: 'row', lg: 'column' }}
+          justify={{ base: 'space-between' }}
+          pb={{ base: 6, md: 6, lg: 0 }}
+          align={{ base: 'center', md: 'center', lg: 'flex-start' }}
+        >
+          <Heading
+            fontSize={{ base: '28', md: '28', lg: '52' }}
+            fontWeight={300}
+            color='white'
+          >
             {hoursThisMonth}hrs
           </Heading>
-          <Text color='neutral.paleBlue'>
+          <Text color='neutral.paleBlue' fontSize={{ base: '15', md: '15' }}>
             Last Week - {hoursPastMonth}hrs
           </Text>
         </Flex>
