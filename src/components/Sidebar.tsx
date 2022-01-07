@@ -5,7 +5,14 @@ import { ActiveLink } from './ActiveLink';
 
 export function Sidebar() {
   return (
-    <Box height='100%' bgColor='neutral.darkBlue' borderRadius='15'>
+    <Flex
+      height='100%'
+      width={{base: '360px', md: '620px', lg: 'auto'}}
+      bgColor='neutral.darkBlue'
+      borderRadius='15'
+      flexDir='column'
+      flexShrink={1}
+    >
       <Flex
         padding={{ base: '4', md: '4', lg: '8' }}
         bgColor='primary.blue'
@@ -42,18 +49,18 @@ export function Sidebar() {
         width='100%'
         height='30%'
         pb={4}
-        pt={{base: 1, md: 1, lg: 4}}
+        pt={{ base: 1, md: 1, lg: 4 }}
         pr={8}
         pl={8}
         align='flex-start'
         justify='space-between'
-        direction={{ base: 'row', md: 'row', lg:'column'}}
+        direction={{ base: 'row', md: 'row', lg: 'column' }}
         gap='8px'
       >
         <ActiveLink>Daily</ActiveLink>
         <ActiveLink>Weekly</ActiveLink>
         <ActiveLink>Monthly</ActiveLink>
       </Flex>
-    </Box>
+    </Flex>
   );
 }

@@ -1,5 +1,4 @@
 import { Grid, Flex, GridItem } from '@chakra-ui/react';
-import { createBreakpoints } from '@chakra-ui/theme-tools';
 import { Daily } from './components/Daily';
 import { Monthly } from './components/Monthly';
 import { Sidebar } from './components/Sidebar';
@@ -16,11 +15,8 @@ export function Dashboard() {
       width='100%'
       height={{ base: 'auto', md: 'auto', lg: '100vh' }}
       align='center'
-      justify='center'
-    >
+      justify='center'    >
       <Grid
-        // bgColor= 'red'
-        // maxWidth={1480}
         padding={{ base: '1rem' }}
         templateColumns={{ base: 'repeat(1, 1fr)', lg: 'repeat(2, 22% 78%)' }}
         gap={{ base: '4', lg: '6' }}
