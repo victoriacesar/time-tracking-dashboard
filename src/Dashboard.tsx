@@ -16,8 +16,10 @@ export function Dashboard() {
       height={{ base: 'auto', md: 'auto', lg: '100vh' }}
       align='center'
       justify='center'    >
+        
       <Grid
-        padding={{ base: '1rem' }}
+        pb={{base: '1rem'}}
+        pt={{base: '1rem'}}
         templateColumns={{ base: 'repeat(1, 1fr)', lg: 'repeat(2, 22% 78%)' }}
         gap={{ base: '4', lg: '6' }}
       >

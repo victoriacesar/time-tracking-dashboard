@@ -8,12 +8,16 @@ export function Weekly() {
 
   return (
     <Grid
-    height={{base: 'auto', md: 'auto', lg: 450}}
-    maxWidth={1000}
-    templateColumns={{base: 'repeat(1, 1fr)', md: 'repeat(1, 1fr)', lg: 'repeat(3, 1fr)'}}
-    templateRows='repeat(2, 1fr)'
-    columnGap={6}
-    rowGap={6}
+      height={{ base: 'auto', md: 'auto', lg: 450 }}
+      maxWidth={1000}
+      templateColumns={{
+        base: 'repeat(1, 1fr)',
+        md: 'repeat(1, 1fr)',
+        lg: 'repeat(3, 1fr)',
+      }}
+      templateRows='repeat(2, 1fr)'
+      columnGap={6}
+      rowGap={6}
     >
       {userData.map((data) => {
         return (

@@ -7,7 +7,7 @@ export function Sidebar() {
   return (
     <Flex
       height='100%'
-      width={{base: '360px', md: '620px', lg: 'auto'}}
+      width={{base: '340px', md: '620px', lg: 'auto'}}
       bgColor='neutral.darkBlue'
       borderRadius='15'
       flexDir='column'

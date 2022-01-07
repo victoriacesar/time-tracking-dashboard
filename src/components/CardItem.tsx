@@ -123,8 +123,9 @@ export function CardItem({
           />
         </Flex>
         <Flex
-          pr={{ base: 6, md: 6, lg: 8 }}
           pl={{ base: 6, md: 6, lg: 8 }}
+          pr={{ base: 6, md: 6, lg: 8 }}
+          width={{ base: '100%', md: '100%', lg: '200px' }}
           flexDir={{ base: 'row', md: 'row', lg: 'column' }}
           justify={{ base: 'space-between' }}
           pb={{ base: 6, md: 6, lg: 0 }}

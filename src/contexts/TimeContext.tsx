@@ -2,11 +2,8 @@ import {
   createContext,
   ReactNode,
   useContext,
-  useEffect,
   useState,
 } from 'react';
-
-import data from '../data.json';
 
 interface TimeContextProps {
   children: ReactNode;

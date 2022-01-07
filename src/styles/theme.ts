@@ -21,6 +21,9 @@ const colors = {
 export const theme = extendTheme(
   { colors },
   {
+    styles: {
+      boxSizing: 'border-box'
+    },
     fonts: {
       heading: 'Rubik',
       body: 'Rubik',
