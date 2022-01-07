@@ -1,4 +1,4 @@
-import { Flex, Avatar, Text, Heading, Box } from '@chakra-ui/react';
+import { Flex, Avatar, Text, Heading } from '@chakra-ui/react';
 
 import jeremyImg from '../images/image-jeremy.png';
 import { ActiveLink } from './ActiveLink';
