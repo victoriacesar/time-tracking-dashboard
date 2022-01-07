@@ -20,7 +20,7 @@ The following technologies were used in this project:
 - [REACTJS](https://reactjs.org/)
 React Hooks and Context Api.
 
-- [CHRAKRAUI](https://chakra-ui.com/)
+- [CHAKRAUI](https://chakra-ui.com/)
 Components and style from ChakraUI.
 
 - [TYPESCRIPT](https://www.typescriptlang.org/docs/)
