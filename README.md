@@ -29,9 +29,9 @@ Components and style from ChakraUI.
 
 <p>To clone locally the project in development mode you must:</p>
 
-<p>git clone git@github.com:victoriacesar/time-tracking-dashboard.git</p>
-<p>open the project in your code editor</p>
-<p>and run yarn start</p>
+```git clone git@github.com:victoriacesar/time-tracking-dashboard.git```
+```open the project in your code editor```
+```and run yarn start```
 
 ### Author
 
