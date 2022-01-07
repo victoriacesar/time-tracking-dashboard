@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+<h1 align="center"><em>Time Tracking Dashboard</em></h1>
+<p align="center">Daily, weekly and monthly time tracking.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="left">
+ <a href="#description">Description</a> •
+ <a href="#technologies">Technologies</a> • 
+ <a href="#author">Author</a>
+</p>
 
-## Available Scripts
+### Description
 
-In the project directory, you can run:
+<p>Hello everyone!</p>
+<p>This project belongs to front end mentor, started it with to practice ChakraUi and ReactJS.</p>
+<a href="https://time-tracking-dashboard-jade.vercel.app/">Click here to see the deploy</a>
 
-### `yarn start`
+### Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The following technologies were used in this project:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [REACTJS](https://reactjs.org/)
+- [CHRAKRAUI](https://chakra-ui.com/)
 
-### `yarn test`
+In this project I used Context Api from ReactJS and also ChakraUI components to style the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clone
 
-### `yarn build`
+<p>To clone locally the project in development mode you must:</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>git clone git@github.com:victoriacesar/time-tracking-dashboard.git</p>
+<p>open the project in your code editor</p>
+<p>and run yarn start</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://github.com/victoriacesar" rel="nofollow">
+ <img src="https://avatars.githubusercontent.com/u/52262828?v=4" width="100px;" alt="" style="max-width:100%;">
+ <br>
+</a>
+<p>Victória César @victoriacesar</p>
+<a href="mailto:victoriacesaras@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:victoriacesaras@gmail.com" />
+</a><a href="https://github.com/victoriacesar">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/victoriacesar"/>
+<a>
